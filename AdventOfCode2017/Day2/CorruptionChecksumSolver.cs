@@ -42,7 +42,7 @@ namespace AdventOfCode2017.Day2
 
         public CorruptionChecksumSolver(string inputSpreadsheet)
         {
-            this.inputSpreadsheet = inputSpreadsheet;
+            this.inputSpreadsheet = inputSpreadsheet ?? throw new ArgumentNullException(nameof(inputSpreadsheet));
             sortedNumLists = new List<List<short>>();
         }
 

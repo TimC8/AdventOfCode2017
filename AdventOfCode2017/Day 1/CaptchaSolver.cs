@@ -38,7 +38,7 @@ namespace AdventOfCode2017.Day_1
 
         public CaptchaSolver(string captchaInput)
         {
-            this.captchaInput = captchaInput;
+            this.captchaInput = captchaInput ?? throw new ArgumentNullException(nameof(captchaInput));
         }
 
         public int SolveCaptcha(int indexDistance)
