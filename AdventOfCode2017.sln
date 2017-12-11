@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode2017", "CaptchaSolver\AdventOfCode2017.csproj", "{E86681E5-E0DA-42BC-B4B4-B0C133FB01B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode2017Tests", "AdventOfCode2017Tests\AdventOfCode2017Tests.csproj", "{E08C51BD-434F-4031-88C6-C414074D8EA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E86681E5-E0DA-42BC-B4B4-B0C133FB01B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E86681E5-E0DA-42BC-B4B4-B0C133FB01B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E86681E5-E0DA-42BC-B4B4-B0C133FB01B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E86681E5-E0DA-42BC-B4B4-B0C133FB01B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E08C51BD-434F-4031-88C6-C414074D8EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E08C51BD-434F-4031-88C6-C414074D8EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E08C51BD-434F-4031-88C6-C414074D8EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E08C51BD-434F-4031-88C6-C414074D8EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B8774C9-FB05-4C8A-97C3-AC6BA8807D1E}
+	EndGlobalSection
+EndGlobal
