@@ -63,7 +63,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CaptchaSolver\AdventOfCode2017.csproj">
+    <ProjectReference Include="..\AdventOfCode2017\AdventOfCode2017.csproj">
       <Project>{E86681E5-E0DA-42BC-B4B4-B0C133FB01B4}</Project>
       <Name>AdventOfCode2017</Name>
     </ProjectReference>

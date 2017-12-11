@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode2017", "CaptchaSolver\AdventOfCode2017.csproj", "{E86681E5-E0DA-42BC-B4B4-B0C133FB01B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode2017", "AdventOfCode2017\AdventOfCode2017.csproj", "{E86681E5-E0DA-42BC-B4B4-B0C133FB01B4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode2017Tests", "AdventOfCode2017Tests\AdventOfCode2017Tests.csproj", "{E08C51BD-434F-4031-88C6-C414074D8EA0}"
 EndProject

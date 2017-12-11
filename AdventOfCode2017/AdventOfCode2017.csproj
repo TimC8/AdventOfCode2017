@@ -7,8 +7,8 @@
     <ProjectGuid>{E86681E5-E0DA-42BC-B4B4-B0C133FB01B4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CaptchaSolver</RootNamespace>
-    <AssemblyName>CaptchaSolver</AssemblyName>
+    <RootNamespace>AdventOfCode2017</RootNamespace>
+    <AssemblyName>AdventOfCode2017</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
