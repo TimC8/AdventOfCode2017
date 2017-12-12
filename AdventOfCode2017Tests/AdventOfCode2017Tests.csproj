@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Day 1\CaptchaSolverTests.cs" />
     <Compile Include="Day2\CorruptionChecksumSolverTests.cs" />
+    <Compile Include="Day3\SpiralMemorySolverTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

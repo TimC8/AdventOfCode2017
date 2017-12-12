@@ -30,13 +30,31 @@ Part 2
 
 namespace AdventOfCode2017.Day3
 {
-    class SpiralMemorySolver
+    public class SpiralMemorySolver
     {
-        String input { get; set; }
+        public int location { get; set; }
+        public int distance { get; private set; }
 
-        public SpiralMemorySolver(string input)
+        public SpiralMemorySolver(int input)
         {
-            this.input = input ?? throw new ArgumentNullException(nameof(input));
+            this.location = input;
+        }
+
+        public int SolveManhattanDistance()
+        {
+            int sideLength = SideLength();
+            int LastCorner = (int) Math.Pow(sideLength, 2);
+            int[] cornerDistances = { Math.Abs(LastCorner - location), Math.Abs(LastCorner - (sideLength - 1) - location),
+            Math.Abs(LastCorner - (sideLength - 1)*2 - location), Math.Abs(LastCorner - (sideLength - 1)*3 - location)};
+            int distanceToCorner = cornerDistances.Min();
+            return sideLength - 1 - distanceToCorner;
+        }
+
+        private int SideLength()
+        {
+            int upperSquareRoot = (int)Math.Ceiling(Math.Sqrt(location));
+            int sideLength = upperSquareRoot % 2 == 0 ? upperSquareRoot + 1 : upperSquareRoot;
+            return sideLength;
         }
     }
 }
